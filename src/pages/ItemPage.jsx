@@ -1,6 +1,5 @@
 import React from "react"
-import Categories from "../components/MainPage/Categories"
-import Item from "../components/MainPage/Item"
+import Item from "../components/Item/Item"
 //import FlashDeals from "../components/flashDeals/FlashDeals"
 // import TopCate from "../components/top/TopCate"
 // import Discount from "../components/discount/Discount"
@@ -14,7 +13,7 @@ const ItemPage = ({ productItems, addToCart, CartItem, shopItems }) => {
       {/* <FlashDeals productItems={productItems} addToCart={addToCart} /> */}
       {/* <TopCate /> */}
       {/* <Discount /> */}
-      <Categories />
+      {/* <Categories /> */}
       {/* <Shop shopItems={shopItems} addToCart={addToCart} /> */}
       <Wrapper />
     </>

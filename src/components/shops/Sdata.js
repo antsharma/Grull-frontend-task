@@ -38,7 +38,7 @@ const Sdata = {
     {
       id: 12,
       cover: "./images/shops/shops-7.png",
-      name: "Redimi Phone",
+      name: "Redmi Phone",
       price: "400",
       discount: "20 ",
     },

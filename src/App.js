@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Header from "./common/header/Header"
 import Pages from "./pages/Pages"
 import MobilePage from "./pages/MobilePage"
+import ItemPage from "./pages/ItemPage"
 import Data from "./components/Data"
 import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
@@ -77,7 +78,7 @@ function App() {
             <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
           </Route>
           <Route path='/ItemPage' exact>
-            <MobilePage productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+            <ItemPage ProductItems={productItems} addToCart={addToCart} shopItems={shopItems} />
           </Route>
           <Route path='/MobilePage' exact>
             <MobilePage productItems={productItems} addToCart={addToCart} shopItems={shopItems} />

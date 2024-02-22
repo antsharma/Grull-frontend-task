@@ -26,6 +26,9 @@ const ShopCart = ({ shopItems, addToCart }) => {
               <div className='product-details'>
                 {/* <h3>{shopItems.name}</h3> */}
                 <Link to = '/ItemPage'><h3>{shopItems.name}</h3></Link>
+                {/* <Link to={`/items/${shopItems.id}`}>
+                <h3>{shopItems.name}</h3>
+                </Link> */}
 
                 <div className='rate'>
                   <i className='fa fa-star'></i>

@@ -6,7 +6,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
-const SlideCard = (shopItems, addToCart) => {
+const SlideCard = (productItems, addToCart) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -27,13 +27,11 @@ const SlideCard = (shopItems, addToCart) => {
                 <div className='left'>
                   <h1>{value.title}</h1>
                   <p>{value.desc}</p>
-                  {/* <button className='btn-primary'>Add to cart</button> */}
+                  <button className='btn-primary'>Add to cart</button>
                   {/* <button onClick={() => addToCart(productItems)}>
                   <button className='btn-primary'>Add to cart</button>
                     </button> */}
-                    <button onClick={() => addToCart(shopItems)}>
-                    <i className='fa fa-plus'></i>
-                  </button>
+                  
                 </div>
                 <div className='right'>
                   <img src={value.cover} alt='' />
