@@ -1,9 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-// import "./Categories.css"; 
-// import {useNavigate} from 'react-router-dom';
 const Categories = () => {
-    // const navigate = useNavigate();
   const data = [
     {
       cateImg: "./images/category/cat1.png",
@@ -73,13 +70,6 @@ const Categories = () => {
               <span>{value.cateName}</span>
             </Link>
             </div>
-
-//             <div className="box f_flex" key={index}>
-//             <Link className="linkDiv" to={value.catePath}>
-//               <img src={value.cateImg} alt="" />
-//               <div>{value.cateName}</div>
-//             </Link>
-//             </div>
             
           )
         })}
